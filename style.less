@@ -1,0 +1,110 @@
+@thin: #888;
+@very-thin: #AAA;
+@dark: #222;
+@link-color: #0275D8;
+@text-color: #373A3C;
+
+a {
+    color: @link-color;
+}
+
+a.social {
+    color: @text-color;
+}
+
+a.social:hover {
+    color: @link-color;
+}
+
+a.mail {
+    color: @text-color;
+}
+
+.container-main {
+    margin: 40px auto;
+    background: white;
+    padding: 100px 40px;
+    box-shadow: -1px 3px 2px 4px @dark;
+
+    .spaced {
+        padding: 20px 0px;
+    }
+
+    .lined {
+        border-top: 1px solid @very-thin;
+    }
+
+    h1 {
+        line-height: 1.5;
+    }
+
+    h2 {
+        color: @thin;
+        font-size: 20pt;
+        line-height: 1.5em;
+    }
+
+    h4 {
+        font-size: 16pt;
+        small {
+            color: @thin;
+        }
+    }
+
+    address {
+        p {
+            margin-bottom: 0.5pt;
+            i.padded {
+                padding-right: 0.75em;
+            }
+        }
+
+        .socials {
+            margin-top: 10px;
+            font-size: 18pt;
+        }
+    }
+
+    .foot {
+        color: @thin;
+        font-size: 12pt;
+    }
+
+    .centered {
+        text-align: center;
+    }
+
+    .projects {
+        img {
+            width:100%;
+        }
+        .project {
+            h4 {
+                a {
+                    display: none;
+                }
+            }
+        }
+        .project:hover {
+            h4 {
+                a {
+                    display: inline;
+                }
+            }
+        }
+    }
+
+    .project-link {
+        color: @thin;
+        font-size: 16pt;
+    }
+
+    .project-link:hover {
+        color: @link-color;
+    }
+}
+
+body {
+    background: #444;
+    color: @text-color;
+}

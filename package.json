@@ -1,0 +1,22 @@
+{
+  "name": "portfoilo",
+  "version": "1.0.0",
+  "description": "Personal portfolio of Frederick Gnodtke.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prior99/portfolio.git"
+  },
+  "author": "Frederick Gnodtke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Prior99/portfolio/issues"
+  },
+  "homepage": "https://github.com/Prior99/portfolio#readme",
+  "dependencies": {
+    "bootstrap": "git+https://github.com/twbs/bootstrap.git#v4-dev",
+    "font-awesome": "^4.4.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-less": "^1.1.0",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
