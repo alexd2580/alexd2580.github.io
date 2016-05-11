@@ -1,17 +1,13 @@
 {
   "name": "portfoilo",
   "version": "1.0.0",
-  "description": "Personal portfolio of Frederick Gnodtke.",
+  "description": "Personal portfolio of Alexander Dmitriev.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Prior99/portfolio.git"
+    "url": "git+https://github.com/alexd2580/alexd2580.github.io.git"
   },
-  "author": "Frederick Gnodtke",
+  "author": "Alexander Dmitriev",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Prior99/portfolio/issues"
-  },
-  "homepage": "https://github.com/Prior99/portfolio#readme",
   "dependencies": {
     "bootstrap": "git+https://github.com/twbs/bootstrap.git#v4-dev",
     "font-awesome": "^4.4.0",

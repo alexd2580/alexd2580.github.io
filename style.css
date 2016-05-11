@@ -1,0 +1,75 @@
+a {
+  color: #0275D8;
+}
+a.social {
+  color: #373A3C;
+}
+a.social:hover {
+  color: #0275D8;
+}
+a.mail {
+  color: #373A3C;
+}
+.container-main {
+  margin: 40px auto;
+  background: white;
+  padding: 100px 40px;
+  box-shadow: -1px 3px 2px 4px #222;
+}
+.container-main .spaced {
+  padding: 20px 0px;
+}
+.container-main .lined {
+  border-top: 1px solid #AAA;
+}
+.container-main h1 {
+  line-height: 1.5;
+}
+.container-main h2 {
+  color: #888;
+  font-size: 20pt;
+  line-height: 1.5em;
+}
+.container-main h4 {
+  font-size: 16pt;
+}
+.container-main h4 small {
+  color: #888;
+}
+.container-main address p {
+  margin-bottom: 0.5pt;
+}
+.container-main address p i.padded {
+  padding-right: 0.75em;
+}
+.container-main address .socials {
+  margin-top: 10px;
+  font-size: 18pt;
+}
+.container-main .foot {
+  color: #888;
+  font-size: 12pt;
+}
+.container-main .centered {
+  text-align: center;
+}
+.container-main .projects img {
+  width: 100%;
+}
+.container-main .projects .project h4 a {
+  display: none;
+}
+.container-main .projects .project:hover h4 a {
+  display: inline;
+}
+.container-main .project-link {
+  color: #888;
+  font-size: 16pt;
+}
+.container-main .project-link:hover {
+  color: #0275D8;
+}
+body {
+  background: #444;
+  color: #373A3C;
+}
