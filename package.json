@@ -8,11 +8,5 @@
   },
   "author": "Alexander Dmitriev",
   "license": "MIT",
-  "dependencies": {
-    "bootstrap": "git+https://github.com/twbs/bootstrap.git#v4-dev",
-    "font-awesome": "^4.4.0",
-    "grunt": "^0.4.5",
-    "grunt-contrib-less": "^1.1.0",
-    "grunt-contrib-watch": "^0.6.1"
-  }
+  "dependencies": {}
 }
